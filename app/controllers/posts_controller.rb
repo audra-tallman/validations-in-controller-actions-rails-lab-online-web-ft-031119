@@ -12,6 +12,7 @@ class PostsController < ApplicationController
       redirect_to post_path(@post)
     else 
       render :update
+    end 
   end
 
   private
